@@ -1,1 +1,7 @@
 print("Hello World")
+print("Test Message")
+print(2+3)
+print(3/2)
+print(3//2)
+print(3%2)
+print(3*2)
