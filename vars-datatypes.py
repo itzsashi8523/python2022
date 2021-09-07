@@ -18,10 +18,13 @@
 # myFloat = 3.2423
 # type(myFloat)      ; float value
 # <class 'float'>
-# myDecision = False
-# type(myDecision)    ; boolian
-# <class 'bool'>
-################Sample input function Example
-f_name = str(input("Enter your First Name: "))
-l_name = str(input("Enter your Last Name: "))
-print(f_name+" "+l_name)
+# myDecision = str(input("Enter your decision: "))
+# result = type(myDecision)   # ; boolian
+# print(result)
+#  # <class 'bool'>
+
+print(type({}))
+print(type([]) is not list)
+print(type([]) is list)
+print(type({}) is not list)
+print(type(()) is not tuple)
