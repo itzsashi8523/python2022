@@ -24,7 +24,19 @@
 #  # <class 'bool'>
 
 print(type({}))
-print(type([]) is not list)
+print(type([]) is not list)  #It gives the output a boolian value like True/False
 print(type([]) is list)
 print(type({}) is not list)
 print(type(()) is not tuple)
+
+a = ('one', 'two', 'three')
+b = "Hello World"
+c = 33
+
+x = type(a)
+y = type(b)
+z = type(c)
+
+print(x)
+print(y)
+print(z)
