@@ -3,11 +3,12 @@ user_age = input("Enter your Age: ")
 
 #This is just to print whether the entered value is numeric or not, It prints True if the given value is numeric, Prints False if the entered value is not a number(like string).
 print(user_age.isnumeric())
+print(user_age.isdigit()) #Working similar to isnumeric() method.
 
 #Checking the condition, if user entered a number/string
 if user_age.isnumeric() == False:
     print("Invalid, Only Numbers are Allowed")
-elif int(user_age) > 35:
+elif int(user_age) > 35 and int(user_age) < 100:
     print("You are age-bar candidate")
 elif int(user_age) < 18:
     print("You are NOT eligible for this job")
